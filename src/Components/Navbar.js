@@ -1,5 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import FacebookLogo from '../Images/facebook.png'
+import LinkedInLogo from '../Images/linkedin.png'
+import InstagramLogo from '../Images/instagram.png'
+import GithubLogo from '../Images/github.png'
 
 const Nav = () => 
 {
@@ -12,7 +16,7 @@ const Nav = () =>
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
                         <Link className="nav-link" to="/">Home</Link>
                     </li>
@@ -26,9 +30,52 @@ const Nav = () =>
                         <Link className="nav-link" to="/about">About</Link>
                     </li>
                 </ul>
+                <ul className="navbar-nav">
+                    <li className="nav-item d-none d-lg-block mr-2">
+                        <a href="https://github.com/rorrorojas3">
+                            <img style={imageStyle} src={GithubLogo} alt="Github"></img>
+                            <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
+                        </a>
+                    </li>
+                    <li className="nav-item d-lg-none">
+                        <a className="nav-link" href="https://github.com/rorrorojas3">Github</a>
+                    </li>
+                    <li className="nav-item d-none d-lg-block mr-2">
+                        <a href="https://www.linkedin.com/in/rodrigorojasgarcia/">
+                            <img style={imageStyle} src={LinkedInLogo} alt="LinkedIn"></img>
+                            <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" >CC 3.0 BY</a></div>
+                        </a>
+                    </li>
+                    <li className="nav-item d-lg-none">
+                        <a className="nav-link" href="https://www.linkedin.com/in/rodrigorojasgarcia/">LinkedIn</a>
+                    </li>
+                    <li className="nav-item d-none d-lg-block mr-2">
+                        <a href="https://www.facebook.com/rorrorojas3">
+                            <img style={imageStyle} src={FacebookLogo} alt="Facebook"></img>
+                            <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
+                        </a>
+                    </li>
+                    <li className="nav-item d-lg-none">
+                        <a className="nav-link" href="https://www.facebook.com/rorrorojas3">Facebook</a>
+                    </li>
+                    <li className="nav-item d-none d-lg-block mr-2">
+                        <a href="https://www.instagram.com/rorrorojas3">
+                            <img style={imageStyle} src={InstagramLogo} alt="Instagram"></img>
+                            <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
+                        </a>
+                    </li>
+                    <li className="nav-item d-lg-none">
+                        <a className="nav-link" href="https://www.instagram.com/rorrorojas3">Instagram</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     );
+}
+
+const imageStyle = {
+    width: "30px",
+    height: "30px"
 }
 
 export default Nav;
