@@ -8,14 +8,14 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Projects from './Components/Projects'
-
+import Footer from './Components/Footer'
 // CSS
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="container-fluid">
         <Navbar/>
         <Switch>
           <Route path="/" exact component={Home}></Route>
@@ -23,6 +23,7 @@ function App() {
           <Route path="/about" exact component={About}></Route>
           <Route path="/projects" exact component={Projects}></Route>
         </Switch>
+        <Footer/>
       </div>
     </BrowserRouter>
   );
