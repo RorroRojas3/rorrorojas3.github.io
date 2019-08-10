@@ -7,10 +7,10 @@ const Home = () => {
         <div className="container">
             <h1 className="d-flex justify-content-center mb-4 mt-4">Welcome!</h1>
             <div className="row d-flex justify-content-center">
-                <div className="col-lg align-self-center">
+                <div className="col-md align-self-center">
                     <img src={ProfilePicture} className="img-fluid mb-4" style={profilePicsStyle} alt="Pic"></img>
                 </div>
-                <div className="col-lg align-self-center">
+                <div className="col-md align-self-center">
                     <p>
                         Hello, my name is Rodrigo Ignacio Rojas Garcia. I'm an international student at Clemson University 
                         pursuing a Bachelor's degree in Computer Engineering and a minor in Mathematical Sciences. 
@@ -27,7 +27,7 @@ const Home = () => {
 
 const profilePicsStyle = {
     borderRadius: "50%",
-    width: "60%",
+    width: "90%",
     height: "auto"
 }
 
