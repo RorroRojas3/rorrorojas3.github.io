@@ -15,7 +15,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div className="container-fluid">
+      <div>
         <Navbar/>
         <Switch>
           <Route path="/" exact component={Home}></Route>

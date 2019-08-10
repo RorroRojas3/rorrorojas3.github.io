@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import ProjectBox from './ProjectBox'
 
 class Projects extends Component 
 {
@@ -24,8 +25,12 @@ class Projects extends Component
     {
         return(
             <div>
-                {this.state.repositories.map((repos, key) => 
-                    <div key={repos.id}>{repos.name}</div>)}
+                {this.state.repositories.map((repo, key) => 
+                    <ProjectBox 
+                        name={repo.name} 
+                        url={repo.html_url}
+                        description={repo.description}
+                        language={repo.language}/>)}
             </div>
         );
     }

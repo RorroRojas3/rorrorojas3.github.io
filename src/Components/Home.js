@@ -26,7 +26,9 @@ const Home = () => {
 }
 
 const profilePicsStyle = {
-    borderRadius: "50%"
+    borderRadius: "50%",
+    width: "60%",
+    height: "auto"
 }
 
 export default Home;

@@ -32,40 +32,40 @@ const Nav = () =>
                 </ul>
                 <ul className="navbar-nav">
                     <li className="nav-item d-none d-lg-block mr-2">
-                        <a href="https://github.com/rorrorojas3">
+                        <a href="https://github.com/rorrorojas3" rel="noopener noreferrer" target="_blank">
                             <img style={imageStyle} src={GithubLogo} alt="Github"></img>
                             <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
                         </a>
                     </li>
                     <li className="nav-item d-lg-none">
-                        <a className="nav-link" href="https://github.com/rorrorojas3">Github</a>
+                        <a className="nav-link" href="https://github.com/rorrorojas3" rel="noopener noreferrer" target="_blank">Github</a>
                     </li>
                     <li className="nav-item d-none d-lg-block mr-2">
-                        <a href="https://www.linkedin.com/in/rodrigorojasgarcia/">
+                        <a href="https://www.linkedin.com/in/rodrigorojasgarcia/" rel="noopener noreferrer" target="_blank">
                             <img style={imageStyle} src={LinkedInLogo} alt="LinkedIn"></img>
                             <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" >CC 3.0 BY</a></div>
                         </a>
                     </li>
                     <li className="nav-item d-lg-none">
-                        <a className="nav-link" href="https://www.linkedin.com/in/rodrigorojasgarcia/">LinkedIn</a>
+                        <a className="nav-link" href="https://www.linkedin.com/in/rodrigorojasgarcia/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
                     </li>
                     <li className="nav-item d-none d-lg-block mr-2">
-                        <a href="https://www.facebook.com/rorrorojas3">
+                        <a href="https://www.facebook.com/rorrorojas3" rel="noopener noreferrer" target="_blank">
                             <img style={imageStyle} src={FacebookLogo} alt="Facebook"></img>
                             <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
                         </a>
                     </li>
                     <li className="nav-item d-lg-none">
-                        <a className="nav-link" href="https://www.facebook.com/rorrorojas3">Facebook</a>
+                        <a className="nav-link" href="https://www.facebook.com/rorrorojas3" rel="noopener noreferrer" target="_blank">Facebook</a>
                     </li>
                     <li className="nav-item d-none d-lg-block mr-2">
-                        <a href="https://www.instagram.com/rorrorojas3">
+                        <a href="https://www.instagram.com/rorrorojas3" rel="noopener noreferrer" target="_blank">
                             <img style={imageStyle} src={InstagramLogo} alt="Instagram"></img>
                             <div className="d-none">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0">CC 3.0 BY</a></div>
                         </a>
                     </li>
                     <li className="nav-item d-lg-none">
-                        <a className="nav-link" href="https://www.instagram.com/rorrorojas3">Instagram</a>
+                        <a className="nav-link" href="https://www.instagram.com/rorrorojas3" rel="noopener noreferrer" target="_blank">Instagram</a>
                     </li>
                 </ul>
             </div>
