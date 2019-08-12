@@ -9,6 +9,7 @@ import Contact from './Components/Contact';
 import Resume from './Components/Resume';
 import Projects from './Components/Projects'
 import Footer from './Components/Footer'
+import Credits from './Components/Credits'
 // CSS
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/resume" exact component={Resume}></Route>
           <Route path="/about" exact component={Contact}></Route>
           <Route path="/projects" exact component={Projects}></Route>
+          <Route path="/credits" exact component={Credits}></Route>
         </Switch>
         <Footer/>
       </div>
