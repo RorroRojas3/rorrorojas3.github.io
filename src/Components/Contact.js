@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return(
-        <div className="container">
+        <div className="container mt-4">
             <div className="col-lg">
                 <form>
                     <div className="form-group">

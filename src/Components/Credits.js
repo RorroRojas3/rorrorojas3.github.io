@@ -8,7 +8,7 @@ import GithubLogo from '../Images/github.png'
 const Credits = () =>
 {
     return(
-        <div className="container">
+        <div className="container mt-4">
             <div className="row pb-2">
                 <div className="col-md-6">
                     <div className="card">
