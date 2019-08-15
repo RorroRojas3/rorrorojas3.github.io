@@ -1,51 +1,55 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
-    return(
-        <div className="container mt-4">
-            <div className="col-lg">
-                <form>
-                    <div className="form-group">
-                        <label for="name">Name</label>
-                        <input className="form-control" 
-                            type="text"
-                            placeholder="Enter your Name" >    
-                        </input>
-                    </div>
-                    <div className="form-group">
-                        <label for="lastName">
-                            Last Name
-                        </label>
-                        <input className="form-control" 
-                                type="text"
-                                placeholder="Enter your Last Name">
-                        </input>
-                    </div>
-                    <div className="form-group">
-                        <label for="email">Email</label>
-                        <input className="form-control"
-                                type="text"
-                                placeholder="Enter your email">        
-                        </input>
-                    </div>
-                    <div className="form-group">
-                        <label for="message">Message</label>
-                        <textarea className="form-control"
-                                type="text"
-                                placeholder="Enter message">
-                        </textarea>
-                    </div>
-                    <div className="text-center">
-                        <button className="btn btn-success">Submit</button>
-                    </div>
-                </form>
-            </div>
-            <div className="col-lg">
-
-            </div>
-            
+  return (
+    <div className="container mt-4">
+      <div className="row">
+        <div className="col-md-6">
+          <h3>
+            You can contact me directly to my email rorro.irg@gmail.com or
+            rrojas@clemson.edu
+          </h3>
+          <h4>You can also use the form to the right to send me a message!</h4>
         </div>
-    );
-}
+        <div className="col-md-6">
+          <form method="POST" action="https://formspree.io/rorro.irg@gmail.com">
+            <div className="form-group">
+              <label for="name">Name</label>
+              <input
+                className="form-control"
+                type="text"
+                placeholder="Enter your Name"
+                name="name"
+              />
+            </div>
+            <div className="form-group">
+              <label for="email">Email</label>
+              <input
+                className="form-control"
+                type="email"
+                placeholder="Enter your email"
+                name="_replyto"
+              />
+            </div>
+            <div className="form-group">
+              <label for="message">Message</label>
+              <textarea
+                className="form-control"
+                type="text"
+                placeholder="Enter message"
+                name="message"
+              />
+            </div>
+            <div className="text-center">
+              <button className="btn btn-success" type="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Contact;
