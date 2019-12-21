@@ -1,10 +1,11 @@
+// React components
 import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container mt-4">
-      <div className="row">
-        <div className="col-md-6">
+    <div className="container-fluid h-100">
+      <div className="row align-items-center h-100">
+        <div className="p-5 col-md-6">
           <h3>
             You can contact me directly to my email rorro.irg@gmail.com or
             rrojas@clemson.edu
