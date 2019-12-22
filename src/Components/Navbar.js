@@ -7,7 +7,7 @@ import GithubLogo from "../Images/github.png";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light px-0">
       <Link className="navbar-brand" to="/">
         RRG
       </Link>
