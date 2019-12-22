@@ -1,10 +1,15 @@
 // React components
 import React from "react";
 
+// My Components
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+
 const Contact = () => {
   return (
     <div className="container-fluid h-100">
-      <div className="row align-items-center h-100">
+      <Navbar></Navbar>
+      <div className="row align-items-center h-100 mt-4">
         <div className="p-5 col-md-6">
           <h3>
             You can contact me directly to my email rorro.irg@gmail.com or
@@ -48,6 +53,9 @@ const Contact = () => {
             </div>
           </form>
         </div>
+      </div>
+      <div className="container h-100">
+        <Footer></Footer>
       </div>
     </div>
   );

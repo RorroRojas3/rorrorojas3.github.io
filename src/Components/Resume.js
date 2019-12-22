@@ -1,4 +1,10 @@
+// React Components
 import React from "react";
+
+// My Components
+import Navbar from "./Navbar";
+
+// Images
 import HexawareLogo from "../Images/hexaware.jpg";
 import MagnaLogo from "../Images/magna.png";
 import FluorLogo from "../Images/fluor.jpg";
@@ -6,7 +12,8 @@ import EYLogo from "../Images/ey.png";
 
 const Resume = () => {
   return (
-    <div style={myContainer}>
+    <div className="container-fluid h-100">
+      <Navbar></Navbar>
       <h1 className="text-center">This is resume</h1>
       <img
         className="image-fluid"
@@ -45,15 +52,6 @@ const logoStyle = {
 const eyStyle = {
   width: "30px",
   height: "30px"
-};
-
-const myContainer = {
-  maxWidth: "1450px",
-  width: "100%",
-  paddingRight: "15px",
-  paddingLeft: "15px",
-  marginRight: "auto",
-  marginLeft: "auto"
 };
 
 export default Resume;
