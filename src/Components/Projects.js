@@ -4,6 +4,7 @@ import React, { Component } from "react";
 // My Components
 import ProjectBox from "./ProjectBox";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 class Projects extends Component {
   constructor(props) {
@@ -34,6 +35,9 @@ class Projects extends Component {
             language={repo.language}
           />
         ))}
+        <div className="container">
+          <Footer></Footer>
+        </div>
       </div>
     );
   }
