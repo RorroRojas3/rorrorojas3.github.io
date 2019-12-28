@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import ProjectBox from "./ProjectBox";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Loading from "./Loading";
 
 class Projects extends Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class Projects extends Component {
     };
   }
 
+  // change
   async componentDidMount() {
     let url = "https://api.github.com/users/rorrorojas3/repos";
     let apiData = await fetch(url);
@@ -27,6 +29,7 @@ class Projects extends Component {
     return (
       <div className="container-fluid h-100">
         <Navbar></Navbar>
+        {this.state.repositories.length === 0 && <Loading></Loading>}
         {this.state.repositories.map((repo, key) => (
           <ProjectBox
             name={repo.name}

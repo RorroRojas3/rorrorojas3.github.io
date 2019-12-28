@@ -12,7 +12,7 @@ const Home = () => {
           <h1 className="justify-content-center">Welcome!</h1>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md align-self-center">
+          <div className="col-lg align-self-center">
             <img
               src={ProfilePicture}
               className="img-fluid mb-4"
@@ -20,7 +20,7 @@ const Home = () => {
               alt="Pic"
             ></img>
           </div>
-          <div className="col-md align-self-center">
+          <div className="col-lg align-self-center">
             <p>
               Hello, my name is Rodrigo Ignacio Rojas Garcia. I'm an
               international student at Clemson University pursuing a Bachelor's
