@@ -22,7 +22,6 @@ function App() {
         <Route path="/about" exact component={Contact}></Route>
         <Route path="/projects" exact component={Projects}></Route>
         <Route path="/credits" exact component={Credits}></Route>
-        <Route path="/loading" exact component={Loading}></Route>
       </Switch>
     </BrowserRouter>
   );
