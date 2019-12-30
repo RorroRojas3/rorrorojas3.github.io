@@ -8,6 +8,8 @@ import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
 import Credits from "./Components/Credits";
+import Loading from "./Components/Loading";
+
 // CSS
 import "./App.css";
 
@@ -20,6 +22,7 @@ function App() {
         <Route path="/about" exact component={Contact}></Route>
         <Route path="/projects" exact component={Projects}></Route>
         <Route path="/credits" exact component={Credits}></Route>
+        <Route path="/loading" exact component={Loading}></Route>
       </Switch>
     </BrowserRouter>
   );
