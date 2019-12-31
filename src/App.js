@@ -8,7 +8,6 @@ import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
 import Credits from "./Components/Credits";
-import Loading from "./Components/Loading";
 
 // CSS
 import "./App.css";
