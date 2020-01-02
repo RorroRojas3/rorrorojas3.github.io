@@ -46,16 +46,22 @@ const Resume = () => {
           logo={HexawareLogo}
           name="Hexaware Technologies"
           descriptions={hexawareInfo}
+          title="Associate Software Engineer"
+          location="Atlanta, GA"
         ></Company>
         <Company
           logo={MagnaLogo}
           name="Magna International"
           descriptions={magnaInfo}
+          title="Software Developer Intern"
+          location="Carrolton, GA"
         ></Company>
         <Company
           logo={FluorLogo}
           name="Fluor Corporation"
           descriptions={fluorInfo}
+          title="Senior Project Support Intern"
+          location="Greenville, SC"
         ></Company>
         {/* <div className="d-none">
           https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
