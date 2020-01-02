@@ -29,6 +29,14 @@ const magnaInfo = [
   "Maintained close communication with the IT team to enhance product quality."
 ];
 
+const fluorInfo = [
+  "Developed software in C and PowerShell to automate tracking of engineering software license.",
+  "Assisted in reducing software development cost to improve employee efficiency.",
+  "Analyzed and updated engineering software metrics database using SQL.",
+  "Managed daily operations of engineering software usage from 40 vendors.",
+  "Created documentation for all developed software for current and future utilization."
+];
+
 const Resume = () => {
   return (
     <div>
@@ -44,7 +52,11 @@ const Resume = () => {
           name="Magna International"
           descriptions={magnaInfo}
         ></Company>
-        <Company></Company>
+        <Company
+          logo={FluorLogo}
+          name="Fluor Corporation"
+          descriptions={fluorInfo}
+        ></Company>
         {/* <div className="d-none">
           https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
           http://seekvectorlogo.com/wp-content/uploads/2018/03/magna-international-vector-logo.png
