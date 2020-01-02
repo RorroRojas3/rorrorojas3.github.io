@@ -20,6 +20,15 @@ const hexawareInfo = [
   "Developed projects in an agile, test-driven environment."
 ];
 
+const magnaInfo = [
+  "Designed and developed websites by utilizing C# with the .NET Framework, Entity Framework, and ASP.NET.",
+  "Designed, created, maintained, and implemented database tables into projects by utilizing SQL and Microsoft SQL Server.",
+  "Created user interface designs by utilizing HTML5, CSS3, and Bootstrap 4 framework.",
+  "Scraped website information by utilizing a combination of JavaScript and jQuery library.",
+  "Utilized Azure DevOps Services for version control of software.",
+  "Maintained close communication with the IT team to enhance product quality."
+];
+
 const Resume = () => {
   return (
     <div>
@@ -30,6 +39,12 @@ const Resume = () => {
           name="Hexaware Technologies"
           descriptions={hexawareInfo}
         ></Company>
+        <Company
+          logo={MagnaLogo}
+          name="Magna International"
+          descriptions={magnaInfo}
+        ></Company>
+        <Company></Company>
         {/* <div className="d-none">
           https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
           http://seekvectorlogo.com/wp-content/uploads/2018/03/magna-international-vector-logo.png
