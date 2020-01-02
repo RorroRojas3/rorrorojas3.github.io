@@ -4,12 +4,12 @@ import React from "react";
 // My Components
 import Navbar from "./Navbar";
 import Company from "./Company";
+import Footer from "./Footer";
 
 // Images
 import HexawareLogo from "../Images/hexaware.jpg";
 import MagnaLogo from "../Images/magna.png";
 import FluorLogo from "../Images/fluor.jpg";
-import EYLogo from "../Images/ey.png";
 
 //
 const hexawareInfo = [
@@ -63,14 +63,10 @@ const Resume = () => {
           https://newsroom.fluor.com/sites/fluor.newshq.businesswire.com/files/logo/image/Fluor_logo.jpg
           https://worldvectorlogo.com/logo/ernst-young-ey
         </div> */}
+        <Footer></Footer>
       </div>
     </div>
   );
-};
-
-const eyStyle = {
-  width: "30px",
-  height: "30px"
 };
 
 export default Resume;

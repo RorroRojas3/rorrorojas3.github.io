@@ -10,6 +10,7 @@ function Company(props) {
             width="100%"
             height="100%"
             src={props.logo}
+            alt="Company Logo"
           ></img>
         </div>
         <div className="col-md-10 align-self-center">
@@ -27,9 +28,9 @@ function Company(props) {
   );
 }
 
-const logoStyle = {
-  width: "100px",
-  height: "100px"
-};
+// const logoStyle = {
+//   width: "100px",
+//   height: "100px"
+// };
 
 export default Company;
