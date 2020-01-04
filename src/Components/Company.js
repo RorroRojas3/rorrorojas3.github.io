@@ -4,17 +4,20 @@ function Company(props) {
   return (
     <div>
       <div className="row">
-        <div className="col-md-2 align-self-end">
+        <div className="col-md-4 align-self-end">
           <img
             className="image-fluid"
-            width="100%"
-            height="100%"
+            width="50%"
+            height="50%"
             src={props.logo}
             alt="Company Logo"
           ></img>
         </div>
-        <div className="col-md-10 align-self-center">
+        <div className="col-md-4 align-self-center">
           <h4 style={nameStyle}>{props.name}</h4>
+        </div>
+        <div className="col-md-4 align-self-center">
+          <p>{props.date}</p>
         </div>
       </div>
       <div className="row ml-3">
@@ -22,7 +25,7 @@ function Company(props) {
           <h5 style={titleStyle}>{props.title}</h5>
         </div>
         <div className="col-md">
-          <h5 style={titleStyle}>{props.location}</h5>
+          <h5>{props.location}</h5>
         </div>
       </div>
       <div className="row ml-5">

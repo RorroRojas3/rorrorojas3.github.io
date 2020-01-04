@@ -48,6 +48,7 @@ const Resume = () => {
           descriptions={hexawareInfo}
           title="Associate Software Engineer"
           location="Atlanta, GA"
+          date="Summer 2019 - Present"
         ></Company>
         <Company
           logo={MagnaLogo}
@@ -55,6 +56,7 @@ const Resume = () => {
           descriptions={magnaInfo}
           title="Software Developer Intern"
           location="Carrolton, GA"
+          date="Spring 2019"
         ></Company>
         <Company
           logo={FluorLogo}
@@ -62,6 +64,7 @@ const Resume = () => {
           descriptions={fluorInfo}
           title="Senior Project Support Intern"
           location="Greenville, SC"
+          date="Summer 2017"
         ></Company>
         {/* <div className="d-none">
           https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
