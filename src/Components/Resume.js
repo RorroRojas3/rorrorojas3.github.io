@@ -42,6 +42,7 @@ const Resume = () => {
     <div>
       <Navbar></Navbar>
       <div className="container mt-4">
+        <h1>Relevant Experience</h1>
         <Company
           logo={HexawareLogo}
           name="Hexaware Technologies"
@@ -66,6 +67,9 @@ const Resume = () => {
           location="Greenville, SC"
           date="Summer 2017"
         ></Company>
+        <h1>Technical Skills</h1>
+        <h1>Education</h1>
+        <h1>Honor's & Awards</h1>
         {/* <div className="d-none">
           https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
           http://seekvectorlogo.com/wp-content/uploads/2018/03/magna-international-vector-logo.png
