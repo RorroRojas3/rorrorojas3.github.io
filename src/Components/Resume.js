@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Company from "./Company";
 import Footer from "./Footer";
+import ResumeList from "./ResumeList";
 
 // Images
 import HexawareLogo from "../Images/hexaware.jpg";
@@ -37,6 +38,8 @@ const fluorInfo = [
   "Created documentation for all developed software for current and future utilization."
 ];
 
+const honorAndAwardsInfo = ["Spot Award", "Dean’s List", "President’s List"];
+
 const Resume = () => {
   return (
     <div>
@@ -68,8 +71,10 @@ const Resume = () => {
           date="Summer 2017"
         ></Company>
         <h1>Technical Skills</h1>
+
         <h1>Education</h1>
         <h1>Honor's & Awards</h1>
+        <ResumeList descriptions={honorAndAwardsInfo}></ResumeList>
         {/* <div className="d-none">
           https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
           http://seekvectorlogo.com/wp-content/uploads/2018/03/magna-international-vector-logo.png
