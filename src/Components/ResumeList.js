@@ -12,12 +12,18 @@ function ResumeList(props) {
         </ul>
       </div>
       <div className="col-md text-right">
-        {props.dates.map((date, key) => {
-          return <p>"caca"</p>;
-        })}
+        <ul style={dateStyle}>
+          {props.dates.map((date, key) => {
+            return <li>{date}</li>;
+          })}
+        </ul>
       </div>
     </div>
   );
 }
+
+const dateStyle = {
+  listStyleType: "none"
+};
 
 export default ResumeList;
