@@ -4,14 +4,14 @@ import React from "react";
 function ResumeList(props) {
   return (
     <div className="row ml-5">
-      <div className="col-md">
+      <div className="col">
         <ul>
           {props.descriptions.map((description, key) => {
             return <li>{description}</li>;
           })}
         </ul>
       </div>
-      <div className="col-md text-right">
+      <div className="col text-right">
         <ul style={dateStyle}>
           {props.dates.map((date, key) => {
             return <li>{date}</li>;
