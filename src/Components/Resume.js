@@ -39,6 +39,7 @@ const fluorInfo = [
 ];
 
 const honorAndAwardsInfo = ["Spot Award", "Dean’s List", "President’s List"];
+const honorAndAwardDates = ["Fall 2019", "Fall 2018", "Spring 2018"];
 
 const Resume = () => {
   return (
@@ -74,7 +75,10 @@ const Resume = () => {
 
         <h1>Education</h1>
         <h1>Honor's & Awards</h1>
-        <ResumeList descriptions={honorAndAwardsInfo}></ResumeList>
+        <ResumeList
+          descriptions={honorAndAwardsInfo}
+          dates={honorAndAwardDates}
+        ></ResumeList>
         {/* <div className="d-none">
           https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
           http://seekvectorlogo.com/wp-content/uploads/2018/03/magna-international-vector-logo.png
