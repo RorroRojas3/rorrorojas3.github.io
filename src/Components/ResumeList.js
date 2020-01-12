@@ -14,7 +14,11 @@ function ResumeList(props) {
       <div className="col text-right">
         <ul style={dateStyle}>
           {props.dates.map((date, key) => {
-            return <li>{date}</li>;
+            return (
+              <li>
+                <h5>{date}</h5>
+              </li>
+            );
           })}
         </ul>
       </div>

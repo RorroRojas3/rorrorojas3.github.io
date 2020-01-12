@@ -18,7 +18,7 @@ function Company(props) {
         </div>
         <div className="col-4 align-self-center">
           <div className="text-right">
-            <p>{props.date}</p>
+            <h5>{props.date}</h5>
           </div>
         </div>
       </div>

@@ -82,7 +82,7 @@ const Resume = () => {
               </h5>
             </div>
             <div className="col text-right">
-              <p>December 2018</p>
+              <h5>December 2018</h5>
             </div>
           </div>
           <div className="row">
@@ -90,7 +90,7 @@ const Resume = () => {
               <h5 style={italicStyle}>Clemson University</h5>
             </div>
             <div className="col text-right">
-              <p>Clemson, SC</p>
+              <h5>Clemson, SC</h5>
             </div>
           </div>
           <div className="row">
@@ -98,7 +98,7 @@ const Resume = () => {
               <h5>Minor: Mathematical Sciences</h5>
             </div>
             <div className="col text-right">
-              <p>GPA: 3.39/4.00</p>
+              <h5>GPA: 3.39/4.00</h5>
             </div>
           </div>
         </div>
