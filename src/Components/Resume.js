@@ -39,7 +39,7 @@ const fluorInfo = [
 ];
 
 const honorAndAwardsInfo = ["Spot Award", "Dean’s List", "President’s List"];
-const honorAndAwardDates = ["Fall 2019", "Fall 2018", "Spring 2018"];
+const honorAndAwardDates = ["Fall 2019", "Spring 2018", "Fall 2018"];
 
 const Resume = () => {
   return (
@@ -53,7 +53,7 @@ const Resume = () => {
           descriptions={hexawareInfo}
           title="Associate Software Engineer"
           location="Atlanta, GA"
-          date="Summer 2019 - Present"
+          date="Present"
         ></Company>
         <Company
           logo={MagnaLogo}
@@ -74,6 +74,34 @@ const Resume = () => {
         <h1>Technical Skills</h1>
 
         <h1>Education</h1>
+        <div className="ml-3">
+          <div className="row">
+            <div className="col">
+              <h5 style={boldSytle}>
+                Bachelor of Science in Computer Engineering
+              </h5>
+            </div>
+            <div className="col text-right">
+              <p>December 2018</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <h5 style={italicStyle}>Clemson University</h5>
+            </div>
+            <div className="col text-right">
+              <p>Clemson, SC</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <h5>Minor: Mathematical Sciences</h5>
+            </div>
+            <div className="col text-right">
+              <p>GPA: 3.39/4.00</p>
+            </div>
+          </div>
+        </div>
         <h1>Honor's & Awards</h1>
         <ResumeList
           descriptions={honorAndAwardsInfo}
@@ -89,6 +117,14 @@ const Resume = () => {
       </div>
     </div>
   );
+};
+
+const italicStyle = {
+  fontStyle: "italic"
+};
+
+const boldSytle = {
+  fontWeight: "bold"
 };
 
 export default Resume;
