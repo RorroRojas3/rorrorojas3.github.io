@@ -5,19 +5,30 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
+// Images
+import ProfilePic from "../Images/profileContact.jpg";
+
 const Contact = () => {
   return (
-    <div className="container-fluid h-100">
+    <div>
       <Navbar></Navbar>
-      <div className="row align-items-center h-100 mt-4">
-        <div className="p-5 col-md-6">
+      <div className="container h-100">
+        <div className="row justify-content-center">
+          <img
+            className="image-fluid"
+            src={ProfilePic}
+            alt="Profile"
+            style={profilePicsStyle}
+          ></img>
+        </div>
+        <div className="row justify-content-center mt-4">
           <h3>
             You can contact me directly to my email rorro.irg@gmail.com or
             rrojas@clemson.edu
           </h3>
           <h4>You can also use the form to the right to send me a message!</h4>
         </div>
-        <div className="col-md-6">
+        <div className="row justify-content-center mt-4">
           <form method="POST" action="https://formspree.io/rorro.irg@gmail.com">
             <div className="form-group">
               <label for="name">Name</label>
@@ -53,12 +64,18 @@ const Contact = () => {
             </div>
           </form>
         </div>
-      </div>
-      <div className="container h-100">
-        <Footer></Footer>
+        <div className="container h-100">
+          <Footer></Footer>
+        </div>
       </div>
     </div>
   );
+};
+
+const profilePicsStyle = {
+  borderRadius: "50%",
+  width: "35%",
+  height: "auto"
 };
 
 export default Contact;

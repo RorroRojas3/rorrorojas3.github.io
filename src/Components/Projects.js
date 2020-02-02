@@ -27,19 +27,22 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="container-fluid h-100">
+      <div>
         <Navbar></Navbar>
-        {this.state.repositories.length === 0 && <Loading></Loading>}
-        {this.state.repositories.map((repo, key) => (
-          <ProjectBox
-            name={repo.name}
-            url={repo.html_url}
-            description={repo.description}
-            language={repo.language}
-          />
-        ))}
-        <div className="container">
-          <Footer></Footer>
+
+        <div className="container-fluid h-100">
+          {this.state.repositories.length === 0 && <Loading></Loading>}
+          {this.state.repositories.map((repo, key) => (
+            <ProjectBox
+              name={repo.name}
+              url={repo.html_url}
+              description={repo.description}
+              language={repo.language}
+            />
+          ))}
+          <div className="container">
+            <Footer></Footer>
+          </div>
         </div>
       </div>
     );
