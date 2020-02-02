@@ -12,6 +12,9 @@ import HexawareLogo from "../Images/hexaware.jpg";
 import MagnaLogo from "../Images/magna.png";
 import FluorLogo from "../Images/fluor.jpg";
 
+// CSS
+import "../App.css";
+
 //
 const hexawareInfo = [
   "Designed and implemented REST APIs by utilizing C# with .NET Core framework and Entity Framework Core.",
@@ -72,7 +75,30 @@ const Resume = () => {
           date="Summer 2017"
         ></Company>
         <h1>Technical Skills</h1>
-
+        <div className="ml-3">
+          <h4>Languages</h4>
+          <div className="row ml-3">
+            <h5>English | Spanish</h5>
+          </div>
+          <h4>Programming Languages</h4>
+          <div className="row ml-3">
+            <h5>
+              C | C# | C++ | PowerShell | SQL | MATLAB | Python | Java |
+              JavaScript | HTML5 | CSS3 | R | VHDL | Assembly
+            </h5>
+          </div>
+          <h4>Operating Systems</h4>
+          <div className="row ml-3">
+            <h5>Windows | Linux</h5>
+          </div>
+          <h4>Programs</h4>
+          <div className="row ml-3">
+            <h5>
+              Visual Studio | Azure DevOps | Git | Microsoft SQL Server |
+              Android Studio | Microsoft Office | Adobe Premiere Pro CC
+            </h5>
+          </div>
+        </div>
         <h1>Education</h1>
         <div className="ml-3">
           <div className="row">
