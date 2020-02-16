@@ -20,7 +20,6 @@ function App() {
         <Route path="/resume" exact component={Resume}></Route>
         <Route path="/about" exact component={Contact}></Route>
         <Route path="/projects" exact component={Projects}></Route>
-        <Route path="/credits" exact component={Credits}></Route>
       </Switch>
     </BrowserRouter>
   );
