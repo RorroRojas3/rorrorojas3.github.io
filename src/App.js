@@ -7,7 +7,6 @@ import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 import Projects from "./Components/Projects";
-import Credits from "./Components/Credits";
 
 // CSS
 import "./App.css";
