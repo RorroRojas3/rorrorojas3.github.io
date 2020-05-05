@@ -56,7 +56,7 @@ const Resume = () => {
           descriptions={hexawareInfo}
           title="Associate Software Engineer"
           location="Atlanta, GA"
-          date="Present"
+          date="May 2019 - Present"
         ></Company>
         <Company
           logo={MagnaLogo}
@@ -64,7 +64,7 @@ const Resume = () => {
           descriptions={magnaInfo}
           title="Software Developer Intern"
           location="Carrolton, GA"
-          date="Spring 2019"
+          date="January 2019 - May 2019"
         ></Company>
         <Company
           logo={FluorLogo}
@@ -72,7 +72,7 @@ const Resume = () => {
           descriptions={fluorInfo}
           title="Senior Project Support Intern"
           location="Greenville, SC"
-          date="Summer 2017"
+          date="June 2017 - August 2017"
         ></Company>
         <h1>Technical Skills</h1>
         <div className="ml-3">
@@ -133,12 +133,6 @@ const Resume = () => {
           descriptions={honorAndAwardsInfo}
           dates={honorAndAwardDates}
         ></ResumeList>
-        {/* <div className="d-none">
-          https://hexaware.com/wp-content/themes/hexaware-main/images/Brand/downloadbrand/color/logo.jpg
-          http://seekvectorlogo.com/wp-content/uploads/2018/03/magna-international-vector-logo.png
-          https://newsroom.fluor.com/sites/fluor.newshq.businesswire.com/files/logo/image/Fluor_logo.jpg
-          https://worldvectorlogo.com/logo/ernst-young-ey
-        </div> */}
         <Footer />
       </div>
     </div>
