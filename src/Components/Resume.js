@@ -21,7 +21,7 @@ const hexawareInfo = [
   "Created and implemented database tables, views, and storage procedures into projects by utilizing SQL and Microsoft SQL Server.",
   "Developed user interface of website by utilizing React.js library, HTML5, CSS3, and Bootstrap 4 framework.",
   "Utilized Azure DevOps and Git for version control and revisions.",
-  "Developed projects in an agile, test-driven environment."
+  "Developed projects in an agile, test-driven environment.",
 ];
 
 const magnaInfo = [
@@ -30,7 +30,7 @@ const magnaInfo = [
   "Created user interface designs by utilizing HTML5, CSS3, and Bootstrap 4 framework.",
   "Scraped website information by utilizing a combination of JavaScript and jQuery library.",
   "Utilized Azure DevOps Services for version control of software.",
-  "Maintained close communication with the IT team to enhance product quality."
+  "Maintained close communication with the IT team to enhance product quality.",
 ];
 
 const fluorInfo = [
@@ -38,7 +38,7 @@ const fluorInfo = [
   "Assisted in reducing software development cost to improve employee efficiency.",
   "Analyzed and updated engineering software metrics database using SQL.",
   "Managed daily operations of engineering software usage from 40 vendors.",
-  "Created documentation for all developed software for current and future utilization."
+  "Created documentation for all developed software for current and future utilization.",
 ];
 
 const honorAndAwardsInfo = ["Spot Award", "Dean’s List", "President’s List"];
@@ -47,7 +47,7 @@ const honorAndAwardDates = ["Fall 2019", "Spring 2018", "Fall 2018"];
 const Resume = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar />
       <div className="container mt-4">
         <h1>Relevant Experience</h1>
         <Company
@@ -139,18 +139,18 @@ const Resume = () => {
           https://newsroom.fluor.com/sites/fluor.newshq.businesswire.com/files/logo/image/Fluor_logo.jpg
           https://worldvectorlogo.com/logo/ernst-young-ey
         </div> */}
-        <Footer></Footer>
+        <Footer />
       </div>
     </div>
   );
 };
 
 const italicStyle = {
-  fontStyle: "italic"
+  fontStyle: "italic",
 };
 
 const boldSytle = {
-  fontWeight: "bold"
+  fontWeight: "bold",
 };
 
 export default Resume;

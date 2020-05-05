@@ -26,7 +26,7 @@ const Contact = () => {
             You can contact me directly to my email rorro.irg@gmail.com or
             rrojas@clemson.edu
           </h3>
-          <h4>You can also use the form to the right to send me a message!</h4>
+          <h4>You can also use the form below to send me a message!</h4>
         </div>
         <div className="row justify-content-center mt-4">
           <form method="POST" action="https://formspree.io/rorro.irg@gmail.com">
@@ -65,7 +65,7 @@ const Contact = () => {
           </form>
         </div>
         <div className="container h-100">
-          <Footer></Footer>
+          <Footer />
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@ const Contact = () => {
 const profilePicsStyle = {
   borderRadius: "50%",
   width: "35%",
-  height: "auto"
+  height: "auto",
 };
 
 export default Contact;

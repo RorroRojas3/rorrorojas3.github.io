@@ -11,7 +11,7 @@ class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      repositories: []
+      repositories: [],
     };
   }
 
@@ -21,15 +21,14 @@ class Projects extends Component {
     let apiData = await fetch(url);
     let repositories = await apiData.json();
     this.setState({
-      repositories: repositories
+      repositories: repositories,
     });
   }
 
   render() {
     return (
       <div>
-        <Navbar></Navbar>
-
+        <Navbar />
         <div className="container-fluid h-100">
           {this.state.repositories.length === 0 && <Loading></Loading>}
           {this.state.repositories.map((repo, key) => (
@@ -41,7 +40,7 @@ class Projects extends Component {
             />
           ))}
           <div className="container">
-            <Footer></Footer>
+            <Footer />
           </div>
         </div>
       </div>

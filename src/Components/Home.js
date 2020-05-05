@@ -6,7 +6,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar />
       <div className="container-fluid h-100">
         <div className="container">
           <div className="row justify-content-center mt-4 mb-4">
@@ -34,7 +34,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <Footer></Footer>
+          <Footer />
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@ const Home = () => {
 const profilePicsStyle = {
   borderRadius: "50%",
   width: "90%",
-  height: "auto"
+  height: "auto",
 };
 
 export default Home;
