@@ -34,7 +34,11 @@ class Projects extends Component {
       <div>
         <Navbar />
         <div className="container-fluid h-100">
-          {this.state.showLoading && <Loading></Loading>}
+          {this.state.showLoading && (
+            <div className="mt-2">
+              <Loading></Loading>
+            </div>
+          )}
           {!this.state.showLoading && this.state.repositories.length === 0 && (
             <div className="container">
               <div className="row justify-content-center">

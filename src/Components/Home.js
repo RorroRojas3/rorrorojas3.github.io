@@ -23,14 +23,12 @@ const Home = () => {
             </div>
             <div className="col-lg align-self-center">
               <p>
-                Hello, my name is Rodrigo Ignacio Rojas Garcia. I'm an
-                international student at Clemson University pursuing a
-                Bachelor's degree in Computer Engineering and a minor in
-                Mathematical Sciences. I am a person who is passionate about
-                learning and developing new software.In my free time, I enjoy
-                learning new programming languages and working on my personal
-                projects. I also love working out, watching sports, and spending
-                time with my family and friends.
+                Hello, my name is Rodrigo Ignacio Rojas Garcia. I'm a Software
+                Engineer focused on Full-stack development. I am a person who is
+                passionate about learning and developing new software.In my free
+                time, I enjoy learning new programming languages and working on
+                my personal projects. I also love working out, watching sports,
+                and spending time with my family and friends.
               </p>
             </div>
           </div>
