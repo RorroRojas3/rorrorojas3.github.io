@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FacebookLogo from "../Images/facebook.png";
-import LinkedInLogo from "../Images/linkedin.png";
-import InstagramLogo from "../Images/instagram.png";
-import GithubLogo from "../Images/github.png";
+import FacebookLogo from "../images/facebook.png";
+import LinkedInLogo from "../images/linkedin.png";
+import InstagramLogo from "../images/instagram.png";
+import GithubLogo from "../images/github.png";
 
 const Nav = () => {
   return (
@@ -210,7 +210,7 @@ const Nav = () => {
 
 const imageStyle = {
   width: "30px",
-  height: "30px"
+  height: "30px",
 };
 
 export default Nav;

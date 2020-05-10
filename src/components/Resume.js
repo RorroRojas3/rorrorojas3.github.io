@@ -136,7 +136,7 @@ const programmingLangSkills = [
   "Assembly",
 ];
 
-const languageSkills = ["English", "Spanish"];
+const languageSkills = ["English", "Spanish "];
 
 const animations = {
   fadeIn: {
