@@ -10,15 +10,18 @@ import Projects from "./Components/Projects";
 
 // CSS
 import "./App.css";
+import Layout from "./Components/Layout";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Home}></Route>
-        <Route path="/resume" exact component={Resume}></Route>
-        <Route path="/about" exact component={Contact}></Route>
-        <Route path="/projects" exact component={Projects}></Route>
+        <Layout>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/resume" exact component={Resume}></Route>
+          <Route path="/about" exact component={Contact}></Route>
+          <Route path="/projects" exact component={Projects}></Route>
+        </Layout>
       </Switch>
     </BrowserRouter>
   );

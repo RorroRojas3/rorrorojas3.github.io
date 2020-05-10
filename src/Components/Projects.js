@@ -3,8 +3,6 @@ import React, { Component } from "react";
 
 // My Components
 import ProjectBox from "./ProjectBox";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 import Loading from "./Loading";
 
 class Projects extends Component {
@@ -32,10 +30,9 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <div className="container-fluid h-100">
           {this.state.showLoading && (
-            <div className="mt-2">
+            <div className="mt-4">
               <Loading></Loading>
             </div>
           )}
@@ -56,9 +53,6 @@ class Projects extends Component {
                 language={repo.language}
               />
             ))}
-          <div className="container">
-            <Footer />
-          </div>
         </div>
       </div>
     );

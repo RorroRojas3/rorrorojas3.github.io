@@ -2,9 +2,7 @@
 import React from "react";
 
 // My Components
-import Navbar from "./Navbar";
 import Company from "./Company";
-import Footer from "./Footer";
 import ResumeList from "./ResumeList";
 
 // Images
@@ -47,7 +45,6 @@ const honorAndAwardDates = ["Fall 2019", "Spring 2018", "Fall 2018"];
 const Resume = () => {
   return (
     <div>
-      <Navbar />
       <div className="container mt-4">
         <h1>Relevant Experience</h1>
         <Company
@@ -133,7 +130,6 @@ const Resume = () => {
           descriptions={honorAndAwardsInfo}
           dates={honorAndAwardDates}
         ></ResumeList>
-        <Footer />
       </div>
     </div>
   );

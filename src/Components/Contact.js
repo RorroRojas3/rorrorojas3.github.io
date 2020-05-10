@@ -1,17 +1,12 @@
 // React components
 import React from "react";
 
-// My Components
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-
 // Images
 import ProfilePic from "../Images/profileContact.jpg";
 
 const Contact = () => {
   return (
     <div>
-      <Navbar></Navbar>
       <div className="container h-100">
         <div className="row justify-content-center">
           <img
@@ -63,9 +58,6 @@ const Contact = () => {
               </button>
             </div>
           </form>
-        </div>
-        <div className="container h-100">
-          <Footer />
         </div>
       </div>
     </div>
