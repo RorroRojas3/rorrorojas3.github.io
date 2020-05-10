@@ -4,7 +4,7 @@ import { shake, fadeIn } from "react-animations";
 import Radium, { StyleRoot } from "radium";
 
 // Images
-import ProfilePic from "../Images/profileContact.jpg";
+import ProfilePic from "../images/profileContact.jpg";
 
 const Contact = () => {
   return (

@@ -1,19 +1,86 @@
 // React Components
 import React from "react";
+import { fadeIn } from "react-animations";
+import Radium, { StyleRoot } from "radium";
 
 // My Components
 import Company from "./Company";
-import ResumeList from "./ResumeList";
+import Skills from "./Skills";
 
 // Images
-import HexawareLogo from "../Images/hexaware.jpg";
-import MagnaLogo from "../Images/magna.png";
-import FluorLogo from "../Images/fluor.jpg";
+import HexawareLogo from "../images/hexaware.jpg";
+import MagnaLogo from "../images/magna.png";
+import FluorLogo from "../images/fluor.jpg";
+import ClemsonLogo from "../images/clemson.jpg";
 
 // CSS
 import "../App.css";
 
-//
+const Resume = () => {
+  return (
+    <StyleRoot>
+      <div className="container mt-4" style={animations.fadeIn}>
+        <div className="row">
+          <p>Experience</p>
+        </div>
+        <Company
+          logo={HexawareLogo}
+          name="Hexaware Technologies"
+          descriptions={hexawareInfo}
+          title="Associate Software Engineer"
+          location="Atlanta, GA"
+          date="May 2019 - Present"
+        ></Company>
+        <hr />
+        <Company
+          logo={MagnaLogo}
+          name="Magna International"
+          descriptions={magnaInfo}
+          title="Software Developer Intern"
+          location="Carrollton, GA"
+          date="February 2019 - May 2019"
+        ></Company>
+        <hr />
+        <Company
+          logo={FluorLogo}
+          name="Fluor Corporation"
+          descriptions={fluorInfo}
+          title="Senior Project Support Intern"
+          location="Greenville, SC"
+          date="June 2017 - August 2017"
+        ></Company>
+        <hr />
+        <p className="row">Education</p>
+        <div className="row">
+          <div className="col-md-2 text-center">
+            <img
+              className="image-fluid"
+              height="150px"
+              width="150px"
+              src={ClemsonLogo}
+              alt="Clemson"
+            />
+          </div>
+          <div className="col-md-10">
+            <p>Clemson University</p>
+            <p>Bachelor's of Science in Computer Engineering</p>
+            <p>Minor: Mathematical Sciences</p>
+          </div>
+        </div>
+        <hr />
+        <div className="row">
+          <p>Technical Skills</p>
+        </div>
+        <Skills title="Programming Languages" skills={programmingLangSkills} />
+        <Skills title="Frameworks & Libraries" skills={frameworkSkills} />
+        <Skills title="Programs & Tools" skills={programSkills} />
+        <Skills title="Operating Systems" skills={opSkills} />
+        <Skills title="Langauges" skills={languageSkills} />
+      </div>
+    </StyleRoot>
+  );
+};
+
 const hexawareInfo = [
   "Designed and implemented REST APIs by utilizing C# with .NET Core framework and Entity Framework Core.",
   "Created and implemented database tables, views, and storage procedures into projects by utilizing SQL and Microsoft SQL Server.",
@@ -39,108 +106,43 @@ const fluorInfo = [
   "Created documentation for all developed software for current and future utilization.",
 ];
 
-const honorAndAwardsInfo = ["Spot Award", "Dean’s List", "President’s List"];
-const honorAndAwardDates = ["Fall 2019", "Spring 2018", "Fall 2018"];
+const opSkills = ["Windows", "Linux"];
 
-const Resume = () => {
-  return (
-    <div>
-      <div className="container mt-4">
-        <h1>Relevant Experience</h1>
-        <Company
-          logo={HexawareLogo}
-          name="Hexaware Technologies"
-          descriptions={hexawareInfo}
-          title="Associate Software Engineer"
-          location="Atlanta, GA"
-          date="May 2019 - Present"
-        ></Company>
-        <Company
-          logo={MagnaLogo}
-          name="Magna International"
-          descriptions={magnaInfo}
-          title="Software Developer Intern"
-          location="Carrolton, GA"
-          date="January 2019 - May 2019"
-        ></Company>
-        <Company
-          logo={FluorLogo}
-          name="Fluor Corporation"
-          descriptions={fluorInfo}
-          title="Senior Project Support Intern"
-          location="Greenville, SC"
-          date="June 2017 - August 2017"
-        ></Company>
-        <h1>Technical Skills</h1>
-        <div className="ml-3">
-          <h4>Languages</h4>
-          <div className="row ml-3">
-            <h5>English | Spanish</h5>
-          </div>
-          <h4>Programming Languages</h4>
-          <div className="row ml-3">
-            <h5>
-              C | C# | C++ | PowerShell | SQL | MATLAB | Python | Java |
-              JavaScript | HTML5 | CSS3 | R | VHDL | Assembly
-            </h5>
-          </div>
-          <h4>Operating Systems</h4>
-          <div className="row ml-3">
-            <h5>Windows | Linux</h5>
-          </div>
-          <h4>Programs</h4>
-          <div className="row ml-3">
-            <h5>
-              Visual Studio | Azure DevOps | Git | Microsoft SQL Server |
-              Android Studio | Microsoft Office | Adobe Premiere Pro CC
-            </h5>
-          </div>
-        </div>
-        <h1>Education</h1>
-        <div className="ml-3">
-          <div className="row">
-            <div className="col">
-              <h5 style={boldSytle}>
-                Bachelor of Science in Computer Engineering
-              </h5>
-            </div>
-            <div className="col text-right">
-              <h5>December 2018</h5>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <h5 style={italicStyle}>Clemson University</h5>
-            </div>
-            <div className="col text-right">
-              <h5>Clemson, SC</h5>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <h5>Minor: Mathematical Sciences</h5>
-            </div>
-            <div className="col text-right">
-              <h5>GPA: 3.39/4.00</h5>
-            </div>
-          </div>
-        </div>
-        <h1>Honor's & Awards</h1>
-        <ResumeList
-          descriptions={honorAndAwardsInfo}
-          dates={honorAndAwardDates}
-        ></ResumeList>
-      </div>
-    </div>
-  );
-};
+const programSkills = [
+  "Visual Studio IDE",
+  "Visual Studio Code",
+  "Git",
+  "Azure DevOps",
+  "Github",
+  "Microsoft SQL Server",
+  "Postman",
+  "Microsoft Office",
+];
 
-const italicStyle = {
-  fontStyle: "italic",
-};
+const frameworkSkills = ["React.js", "Razor", "Bootstrap 4"];
 
-const boldSytle = {
-  fontWeight: "bold",
+const programmingLangSkills = [
+  "C#",
+  "Javascript",
+  "SQL",
+  "HTML5",
+  "CSS3",
+  "R",
+  "MATLAB",
+  "Powershell",
+  "C++",
+  "Java",
+  "VHDL",
+  "Assembly",
+];
+
+const languageSkills = ["English", "Spanish"];
+
+const animations = {
+  fadeIn: {
+    animation: "x 2s",
+    animationName: Radium.keyframes(fadeIn, "fadeIn"),
+  },
 };
 
 export default Resume;
