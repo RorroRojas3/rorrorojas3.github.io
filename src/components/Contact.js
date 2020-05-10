@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <div className="container h-100">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mt-4">
           <img
             className="image-fluid"
             src={ProfilePic}
