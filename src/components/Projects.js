@@ -1,5 +1,7 @@
 // React components
 import React, { Component } from "react";
+import { slideInDown } from "react-animations";
+import Radium, { StyleRoot } from "radium";
 
 // My Components
 import ProjectBox from "./ProjectBox";
@@ -46,17 +48,28 @@ class Projects extends Component {
           {!this.state.showLoading &&
             this.state.repositories.length !== 0 &&
             this.state.repositories.map((repo, key) => (
-              <ProjectBox
-                name={repo.name}
-                url={repo.html_url}
-                description={repo.description}
-                language={repo.language}
-              />
+              <StyleRoot>
+                <div style={animations.slideInDown}>
+                  <ProjectBox
+                    name={repo.name}
+                    url={repo.html_url}
+                    description={repo.description}
+                    language={repo.language}
+                  />
+                </div>
+              </StyleRoot>
             ))}
         </div>
       </div>
     );
   }
 }
+
+const animations = {
+  slideInDown: {
+    animation: "x 3s",
+    animationName: Radium.keyframes(slideInDown, "slideDown"),
+  },
+};
 
 export default Projects;

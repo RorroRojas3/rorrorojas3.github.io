@@ -3,14 +3,14 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 // My Components
-import Home from "./Components/Home";
-import Contact from "./Components/Contact";
-import Resume from "./Components/Resume";
-import Projects from "./Components/Projects";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import Projects from "./components/Projects";
+import Layout from "./components/Layout";
 
 // CSS
 import "./App.css";
-import Layout from "./Components/Layout";
 
 function App() {
   return (

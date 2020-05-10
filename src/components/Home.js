@@ -1,7 +1,8 @@
 import React from "react";
-import ProfilePicture from "../Images/profileHome.jpg";
 import { fadeInRight, fadeInLeft, fadeInUp } from "react-animations";
 import Radium, { StyleRoot } from "radium";
+
+import ProfilePicture from "../Images/profileHome.jpg";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
             <div className="row justify-content-center mt-4 mb-4">
               <h1
                 className="justify-content-center"
-                style={animationStyles.fadeInUp}
+                style={animations.fadeInUp}
               >
                 Welcome!
               </h1>
@@ -20,7 +21,7 @@ const Home = () => {
             <div className="row justify-content-center">
               <div
                 className="col-lg align-self-center"
-                style={animationStyles.fadeInLeft}
+                style={animations.fadeInLeft}
               >
                 <img
                   src={ProfilePicture}
@@ -31,7 +32,7 @@ const Home = () => {
               </div>
               <div
                 className="col-lg align-self-center"
-                style={animationStyles.fadeInRight}
+                style={animations.fadeInRight}
               >
                 <p>
                   Hello, my name is Rodrigo Ignacio Rojas Garcia. I'm a Software
@@ -56,7 +57,7 @@ const profilePicsStyle = {
   height: "auto",
 };
 
-const animationStyles = {
+const animations = {
   fadeInRight: {
     animation: "x 2s",
     animationName: Radium.keyframes(fadeInRight, "fadeInRight"),
