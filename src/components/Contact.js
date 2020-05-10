@@ -35,7 +35,7 @@ const Contact = () => {
                 <input
                   className="form-control"
                   type="text"
-                  placeholder="Enter your Name"
+                  placeholder="Enter your name"
                   name="name"
                 />
               </div>
@@ -53,7 +53,7 @@ const Contact = () => {
                 <textarea
                   className="form-control"
                   type="text"
-                  placeholder="Enter message"
+                  placeholder="Enter your message"
                   name="message"
                 />
               </div>
