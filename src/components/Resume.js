@@ -7,21 +7,23 @@ import Radium, { StyleRoot } from "radium";
 import Company from "./Company";
 import Skills from "./Skills";
 
+// Files
+import resume from "../documents/Rodrigo-Rojas-Resume.pdf";
+
 // Images
 import HexawareLogo from "../images/hexaware.jpg";
 import MagnaLogo from "../images/magna.png";
 import FluorLogo from "../images/fluor.jpg";
 import ClemsonLogo from "../images/clemson.jpg";
 
-// CSS
-import "../App.css";
-
 const Resume = () => {
   return (
     <StyleRoot>
       <div className="container mt-4" style={animations.fadeIn}>
         <div className="row">
-          <p>Experience</p>
+          <h2>
+            <strong>Experience</strong>
+          </h2>
         </div>
         <Company
           logo={HexawareLogo}
@@ -50,7 +52,9 @@ const Resume = () => {
           date="June 2017 - August 2017"
         ></Company>
         <hr />
-        <p className="row">Education</p>
+        <h2 className="row">
+          <strong>Education</strong>
+        </h2>
         <div className="row">
           <div className="col-md-2 text-center">
             <img
@@ -62,20 +66,29 @@ const Resume = () => {
             />
           </div>
           <div className="col-md-10">
-            <p>Clemson University</p>
-            <p>Bachelor's of Science in Computer Engineering</p>
-            <p>Minor: Mathematical Sciences</p>
+            <h3>Clemson University</h3>
+            <h4>Bachelor's of Science in Computer Engineering</h4>
+            <h5>Minor: Mathematical Sciences</h5>
           </div>
         </div>
         <hr />
         <div className="row">
-          <p>Technical Skills</p>
+          <h2>
+            <strong>Technical Skills</strong>
+          </h2>
         </div>
         <Skills title="Programming Languages" skills={programmingLangSkills} />
         <Skills title="Frameworks & Libraries" skills={frameworkSkills} />
         <Skills title="Programs & Tools" skills={programSkills} />
         <Skills title="Operating Systems" skills={opSkills} />
         <Skills title="Langauges" skills={languageSkills} />
+        <div className="text-center mt-4">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+            <button className="btn btn-info btn-lg" type="button">
+              Download Resume
+            </button>
+          </a>
+        </div>
       </div>
     </StyleRoot>
   );

@@ -9,9 +9,6 @@ import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Layout from "./components/Layout";
 
-// CSS
-import "./App.css";
-
 function App() {
   return (
     <BrowserRouter>

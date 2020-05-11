@@ -67,7 +67,7 @@ class Projects extends Component {
 
 const animations = {
   slideInDown: {
-    animation: "x 3s",
+    animation: "x 1s",
     animationName: Radium.keyframes(slideInDown, "slideDown"),
   },
 };

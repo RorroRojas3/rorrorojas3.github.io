@@ -14,10 +14,12 @@ const Company = (props) => {
           />
         </div>
         <div className="col-md-10">
-          <p>{props.title}</p>
-          <p>{props.name}</p>
-          <p>{props.location}</p>
-          <p>{props.date}</p>
+          <h3>{props.name}</h3>
+          <h4>
+            <em>{props.title}</em>
+          </h4>
+          <h5>{props.location}</h5>
+          <h5>{props.date}</h5>
           <ul>
             {props.descriptions.map((description, key) => {
               return <li>{description}</li>;

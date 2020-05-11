@@ -4,7 +4,7 @@ const Skills = (props) => {
   return (
     <div className="row">
       <div className="col-md-2">
-        <p>{props.title}</p>
+        <h4>{props.title}</h4>
       </div>
       <div className="col-md-10">
         <ul>
