@@ -1,6 +1,6 @@
 // React components
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, HashRouter } from "react-router-dom";
 
 // My Components
 import Home from "./components/Home";
@@ -11,7 +11,7 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Switch>
         <Layout>
           <Route path="/" exact component={Home}></Route>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/projects" exact component={Projects}></Route>
         </Layout>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
