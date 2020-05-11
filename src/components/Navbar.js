@@ -24,22 +24,38 @@ const Nav = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
+          <li
+            className="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
             <Link className="nav-link" to="/">
               Home
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
             <Link className="nav-link" to="/resume">
               Resume
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
             <Link className="nav-link" to="/projects">
               Projects
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
             <Link className="nav-link" to="/about">
               Contact
             </Link>
