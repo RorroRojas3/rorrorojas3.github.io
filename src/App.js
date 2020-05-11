@@ -11,10 +11,10 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Layout>
-          <Route path="/my-website" exact component={Home}></Route>
+          <Route path="/" exact component={Home}></Route>
           <Route path="/resume" exact component={Resume}></Route>
           <Route path="/about" exact component={Contact}></Route>
           <Route path="/projects" exact component={Projects}></Route>
