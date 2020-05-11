@@ -2,7 +2,7 @@ import React from "react";
 import { fadeInRight, fadeInLeft, fadeInUp } from "react-animations";
 import Radium, { StyleRoot } from "radium";
 
-import ProfilePicture from "../images/profileHome.jpg";
+import ProfilePicture from "../images/profileContact.jpg";
 
 const Home = () => {
   return (

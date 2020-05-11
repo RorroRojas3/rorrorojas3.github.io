@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div>
       <StyleRoot>
-        <div className="container h-100">
+        <div className="container">
           <div
             className="row justify-content-center mt-4"
             style={animations.fadeIn}
@@ -22,10 +22,7 @@ const Contact = () => {
               style={profilePicsStyle}
             ></img>
           </div>
-          <div
-            className="row justify-content-center mt-4"
-            style={animations.shake}
-          >
+          <div className="text-center mt-4" style={animations.shake}>
             <form
               method="POST"
               action="https://formspree.io/rorro.irg@gmail.com"
