@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rorrorojas3.github.io/my-website",
+  "homepage": "https://rorrorojas3.github.io/my-webiste/",
   "dependencies": {
     "axios": "^0.19.2",
     "gh-pages": "^2.2.0",
@@ -35,6 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {}
+  }
 }
