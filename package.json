@@ -2,8 +2,10 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://rorrorojas3.github.io/my-website",
   "dependencies": {
     "axios": "^0.19.2",
+    "gh-pages": "^2.2.0",
     "radium": "^0.26.0",
     "react": "^16.8.6",
     "react-animations": "^1.0.0",
@@ -15,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
