@@ -4,8 +4,8 @@ import { fadeIn } from "react-animations";
 import Radium, { StyleRoot } from "radium";
 
 // My Components
-import Company from "./Company";
-import Skills from "./Skills";
+import Company from "../components/Company";
+import Skills from "../components/Skills";
 
 // Files
 import resume from "../documents/Rodrigo-Rojas-Resume.pdf";

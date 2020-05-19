@@ -28,21 +28,21 @@ const Contact = () => {
               action="https://formspree.io/rorro.irg@gmail.com"
             >
               <div className="form-group">
-                <label for="name">Name</label>
-                <input
-                  className="form-control"
-                  type="text"
-                  placeholder="Enter your name"
-                  name="name"
-                />
-              </div>
-              <div className="form-group">
                 <label for="email">Email</label>
                 <input
                   className="form-control"
                   type="email"
                   placeholder="Enter your email"
                   name="_replyto"
+                />
+              </div>
+              <div className="form-group">
+                <label for="name">Name</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  placeholder="Enter your name"
+                  name="name"
                 />
               </div>
               <div className="form-group">

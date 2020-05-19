@@ -4,8 +4,8 @@ import { slideInDown } from "react-animations";
 import Radium, { StyleRoot } from "radium";
 
 // My Components
-import ProjectBox from "./ProjectBox";
-import Loading from "./Loading";
+import ProjectBox from "../components/ProjectBox";
+import Loading from "../components/Loading";
 
 class Projects extends Component {
   constructor(props) {
