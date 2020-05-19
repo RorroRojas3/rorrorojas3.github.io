@@ -153,7 +153,7 @@ const languageSkills = ["English", "Spanish "];
 
 const animations = {
   fadeIn: {
-    animation: "x 2s",
+    animation: "x 1s",
     animationName: Radium.keyframes(fadeIn, "fadeIn"),
   },
 };

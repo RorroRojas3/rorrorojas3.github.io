@@ -59,15 +59,15 @@ const profilePicsStyle = {
 
 const animations = {
   fadeInRight: {
-    animation: "x 2s",
+    animation: "x 1s",
     animationName: Radium.keyframes(fadeInRight, "fadeInRight"),
   },
   fadeInLeft: {
-    animation: "x 2s",
+    animation: "x 1s",
     animationName: Radium.keyframes(fadeInLeft, "fadeInLeft"),
   },
   fadeInUp: {
-    animation: "x 2s",
+    animation: "x 1s",
     animationName: Radium.keyframes(fadeInUp, "fadeInUp"),
   },
 };

@@ -75,11 +75,11 @@ const profilePicsStyle = {
 
 const animations = {
   fadeIn: {
-    animation: "x 3s",
+    animation: "x 1s",
     animationName: Radium.keyframes(fadeIn, "fadeIn"),
   },
   shake: {
-    animation: "x 3s",
+    animation: "x 1s",
     animationName: Radium.keyframes(shake, "shake"),
   },
 };
