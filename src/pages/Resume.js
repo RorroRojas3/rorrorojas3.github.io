@@ -29,7 +29,7 @@ const Resume = () => {
           logo={HexawareLogo}
           name="Hexaware Technologies"
           descriptions={hexawareInfo}
-          title="Associate Software Engineer"
+          title="Senior Software Engineer"
           location="Atlanta, GA"
           date="May 2019 - Present"
         ></Company>
