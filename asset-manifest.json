@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.fcb9442d.chunk.css",
+    "main.js": "/my-website/static/js/main.1744d030.chunk.js",
+    "main.js.map": "/my-website/static/js/main.1744d030.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
+    "static/js/2.06a1bfee.chunk.js": "/my-website/static/js/2.06a1bfee.chunk.js",
+    "static/js/2.06a1bfee.chunk.js.map": "/my-website/static/js/2.06a1bfee.chunk.js.map",
+    "index.html": "/my-website/index.html",
+    "precache-manifest.3e4c7ad1e7d526895adfd9f7de62a505.js": "/my-website/precache-manifest.3e4c7ad1e7d526895adfd9f7de62a505.js",
+    "service-worker.js": "/my-website/service-worker.js",
+    "static/css/main.fcb9442d.chunk.css.map": "/my-website/static/css/main.fcb9442d.chunk.css.map",
+    "static/js/2.06a1bfee.chunk.js.LICENSE.txt": "/my-website/static/js/2.06a1bfee.chunk.js.LICENSE.txt",
+    "static/media/Rodrigo-Rojas-Resume.pdf": "/my-website/static/media/Rodrigo-Rojas-Resume.70f49e78.pdf",
+    "static/media/clemson.jpg": "/my-website/static/media/clemson.0aacd666.jpg",
+    "static/media/fluor.jpg": "/my-website/static/media/fluor.2f4e07a4.jpg",
+    "static/media/github.png": "/my-website/static/media/github.ae31311e.png",
+    "static/media/hexaware.jpg": "/my-website/static/media/hexaware.60c95c22.jpg",
+    "static/media/instagram.png": "/my-website/static/media/instagram.04bc0b7c.png",
+    "static/media/profileContact.jpg": "/my-website/static/media/profileContact.653826be.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cbcd75a.js",
+    "static/js/2.06a1bfee.chunk.js",
+    "static/css/main.fcb9442d.chunk.css",
+    "static/js/main.1744d030.chunk.js"
+  ]
+}
