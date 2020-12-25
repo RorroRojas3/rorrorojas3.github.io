@@ -35,6 +35,15 @@ const Resume = () => {
         ></Company>
         <hr />
         <Company
+          logo={HexawareLogo}
+          name="Hexaware Technologies"
+          descriptions={hexawareInfo2}
+          title="Associate Software Engineer"
+          location="Atlanta, GA"
+          date="May 2019 - July 2020"
+        ></Company>
+        <hr />
+        <Company
           logo={MagnaLogo}
           name="Magna International"
           descriptions={magnaInfo}
@@ -78,9 +87,7 @@ const Resume = () => {
           </h2>
         </div>
         <Skills title="Programming Languages" skills={programmingLangSkills} />
-        <Skills title="Frameworks & Libraries" skills={frameworkSkills} />
-        <Skills title="Programs & Tools" skills={programSkills} />
-        <Skills title="Operating Systems" skills={opSkills} />
+        <Skills title="Software Development Tools" skills={programSkills} />
         <Skills title="Langauges" skills={languageSkills} />
         <div className="text-center mt-4">
           <a href={resume} target="_blank" rel="noopener noreferrer">
@@ -95,20 +102,25 @@ const Resume = () => {
 };
 
 const hexawareInfo = [
-  "Designed and implemented REST APIs by utilizing C# with .NET Core framework and Entity Framework Core.",
+  "Work as Technical Leader in developing new software and middle-ware projects.",
+  "Designed and implemented database schemas and back-end systems to support server-less compute services by utilizing C# with .NET Core 3.1 framework and Entity Framework Core.",
+  "Identified and implemented algorithms for optimizing business processes and improving application efficiency.",
+  "Conducted code, design and process reviews, including code sampling design reviews, code profiling, and process adherence for source code control and builds.",
+];
+
+const hexawareInfo2 = [
+  "Developed and build REST APIs by utilizing C# with .NET Core framework and Entity Framework Core which fully utilized the MVC design pattern.",
   "Created and implemented database tables, views, and storage procedures into projects by utilizing SQL and Microsoft SQL Server.",
-  "Developed user interface of website by utilizing React.js library, HTML5, CSS3, and Bootstrap 4 framework.",
-  "Utilized Azure DevOps and Git for version control and revisions.",
-  "Developed projects in an agile, test-driven environment.",
+  "Developed user interface of website by utilizing React.js library,	HTML5, CSS3, and Bootstrap 4 framework.",
+  "Utilized Azure DevOps services and Git for version control and revisions.",
+  "Delivered projects following the Agile Framework.",
 ];
 
 const magnaInfo = [
-  "Designed and developed websites by utilizing C# with the .NET Framework, Entity Framework, and ASP.NET.",
-  "Designed, created, maintained, and implemented database tables into projects by utilizing SQL and Microsoft SQL Server.",
-  "Created user interface designs by utilizing HTML5, CSS3, and Bootstrap 4 framework.",
-  "Scraped website information by utilizing a combination of JavaScript and jQuery library.",
-  "Utilized Azure DevOps Services for version control of software.",
-  "Maintained close communication with the IT team to enhance product quality.",
+  "Designed and developed websites by utilizing C# with the .NET Framework and Entity Framework.",
+  "Implemented database tables, views, and storage procedures into projects by utilizing ADO.NET, SQL, and Microsoft SQL Server.",
+  "Created user interface designs by utilizing HTML5, CSS3, JavaScript, jQuery, and Bootstrap 4 framework for web applications.",
+  "Utilized Azure DevOps services for version control of software.",
 ];
 
 const fluorInfo = [
@@ -119,32 +131,27 @@ const fluorInfo = [
   "Created documentation for all developed software for current and future utilization.",
 ];
 
-const opSkills = ["Windows", "Linux"];
-
 const programSkills = [
-  "Visual Studio IDE",
-  "Visual Studio Code",
-  "Git",
+  "Visual Studio IDE/Code",
   "Azure DevOps",
-  "Github",
+  "Git",
   "Microsoft SQL Server",
-  "Postman",
-  "Microsoft Office",
+  "Android Studio",
 ];
-
-const frameworkSkills = ["React.js", "Razor", "Bootstrap 4"];
 
 const programmingLangSkills = [
   "C#",
-  "Javascript",
+  "C",
+  "C++",
+  "PowerShell",
   "SQL",
+  "MATLAB",
+  "Python",
+  "Java",
+  "JavaScript",
   "HTML5",
   "CSS3",
   "R",
-  "MATLAB",
-  "Powershell",
-  "C++",
-  "Java",
   "VHDL",
   "Assembly",
 ];
