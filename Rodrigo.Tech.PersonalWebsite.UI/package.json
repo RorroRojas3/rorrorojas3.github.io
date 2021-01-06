@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://rorrorojas3.github.io/my-website",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "gh-pages": "^2.2.0",
     "radium": "^0.26.0",
     "react": "^16.13.1",
