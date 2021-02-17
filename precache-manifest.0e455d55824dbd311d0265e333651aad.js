@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b73b31aee726e565ab1fe961406c839c",
+    "revision": "877d5d675767d0eadb51621ddfc29df3",
     "url": "/my-website/index.html"
   },
   {
-    "revision": "68c53cb1b4677819792b",
+    "revision": "014139a832b682b099a4",
     "url": "/my-website/static/css/main.fcb9442d.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-website/static/js/2.06a1bfee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68c53cb1b4677819792b",
-    "url": "/my-website/static/js/main.1744d030.chunk.js"
+    "revision": "014139a832b682b099a4",
+    "url": "/my-website/static/js/main.a0799a83.chunk.js"
   },
   {
     "revision": "8a31e1a8153659a682c8",
     "url": "/my-website/static/js/runtime-main.0cbcd75a.js"
   },
   {
-    "revision": "70f49e78be6fe6d7eb59294f5047146e",
-    "url": "/my-website/static/media/Rodrigo-Rojas-Resume.70f49e78.pdf"
+    "revision": "af69aebf4149409153c8546fc35e5c16",
+    "url": "/my-website/static/media/Rodrigo-Rojas-Resume.af69aebf.pdf"
   },
   {
     "revision": "0aacd666556dc235bb8beb5cb1717b31",
