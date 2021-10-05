@@ -181,7 +181,7 @@ const Nav = () => {
           </li>
           <li className="nav-item d-none d-lg-block mr-2">
             <a
-              href="https://www.instagram.com/rorrorojas3"
+              href="https://www.instagram.com/rodrigorojasg_"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -211,7 +211,7 @@ const Nav = () => {
           <li className="nav-item d-lg-none">
             <a
               className="nav-link"
-              href="https://www.instagram.com/rorrorojas3"
+              href="https://www.instagram.com/rodrigorojasg_"
               rel="noopener noreferrer"
               target="_blank"
             >
